@@ -19,4 +19,3 @@ alura>
 alura>PS1="alura:"
 alura:
 ```
-
