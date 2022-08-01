@@ -104,27 +104,27 @@ O CentOS, abreviação de Community ENTerprise Operating System, é uma distribu
 
 ## Scientific Linux
 
-<img src="./imgs/scientific-logo.svg" alt="scientific-logo" width="250">  
-  
+<img src="./imgs/scientific-logo.svg" alt="scientific-logo" width="250" height="300">  
+
 Scientific Linux é uma distribuição Linux padronizado pelo Fermi National Accelerator Laboratory ou Fermilab (Illinois/USA). Ele é um sistema operacional livre e de código aberto baseado no Red Hat Enterprise Linux (RHEL).O objetivo principal para o desenvolvimento do Scientific Linux foi disponibilizar uma distribuição de Linux para alguns laboratórios e universidades, que corresponde com as necessidades para experimentos físicos de alta energia e intensidade.
 
 ## Linux Mint
 
-![mint-logo](https://upload.wikimedia.org/wikipedia/commons/6/6b/Linux_Mint_Logo_%28until_2021%29.svg)
+<img src="./imgs/mint-logo.svg" alt="mint-logo" width="250">  
+
 Linux Mint é uma distribuição Linux irlandesa. Possui duas versões: uma baseada em Ubuntu (com o qual é totalmente compatível e partilha os mesmos repositórios) e outra versão baseada em Debian. Suporta muitos idiomas, incluindo a língua portuguesa, e utiliza o Cinnamon como seu principal ambiente de desktop.
 
 Esforça-se para ser um "sistema operacional moderno, elegante e confortável, que é poderoso e fácil de usar" e possui suporte de mídia pronto para o uso, incluindo alguns softwares proprietários e vem com uma variedade de aplicativos gratuitos e de código aberto.
 
 ## OpenSUSE
 
-![opensuse-logo](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/OpenSUSE_Logo.svg/1280px-OpenSUSE_Logo.svg.png)
+<img src="./imgs/opensuse-logo.png" alt="opensuse-logo" width="250">  
+ 
 openSUSE é um sistema operacional baseado no kernel Linux, desenvolvido pela comunidade openSUSE de forma gratuita.
 Após adquirir o SUSE Linux em janeiro de 2004, a Novell, uma empresa norte-americana que na década de 1980 ficou famosa por seu sistema operacional de rede (Netware), após o sucesso lançou o SUSE Linux Professional como um projeto 100% código livre, envolvendo a comunidade no processo de desenvolvimento.
 O openSUSE é dirigido pela comunidade OpenSUSE Project e patrocinada pela Novell, para desenvolver e manter os componentes das distribuições SUSE Linux 
 
 # Padrões presentes em distribuições que usam o kernel Linux
-
----
 
 ## Filesystem Hierarchy Standard
 
@@ -259,8 +259,6 @@ De acordo com a LSB:
   - O software também conhecido como VMailer e IBM Secure Mailer, continua a ser ativamente desenvolvido pelo seu criador e outros contribuidores e é o agente de transferência de e-mails padrão de inúmeros sistemas operativos como o OS X, o Ubuntu, e o NetBSD.
 
 # Usando um sistema linux
-
----
 
 Vamos usar o Ubuntu como exemplo.
 
