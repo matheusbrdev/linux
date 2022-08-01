@@ -1,15 +1,9 @@
 # Apostila Linux LPI Essentials
-
-### By: Matheus Barbosa Ribeiro
-
----
-
 # Kernel
 
----
+Em computação, **Kernel** é o componente central do sistema operacional. Ele serve de ponte entre o hardware, aplicativos e processamentos  
 
-Em computação, **Kernel** é o componente central do sistema operacional. Ele serve de ponte entre o hardware, aplicativos e processamentos
-![KernelLayoutsvg](https://upload.wikimedia.org/wikipedia/commons/8/8f/Kernel_Layout.svg)
+![KernelLayoutsvg](./imgs/kernel.svg)  
 
 As responsabilidades do Kernel incluem gerenciar os recursos do sistema (a comunicação entre componentes de hardware e software). Essas tarefas e gerenciamentos são feitos de formas diferentes dependendo do Kernel do seu sistema operacional.
 
