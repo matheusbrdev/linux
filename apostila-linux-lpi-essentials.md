@@ -79,29 +79,33 @@ O Debian é um sistema operacional composto inteiramente de software livre e man
 
 ## Ubuntu
 
-<img src="./imgs/ubuntu-logo.svg" alt="debian-logo" width="250">  
+<img src="./imgs/ubuntu-logo.svg" alt="ubuntu-logo" width="250">  
 
 Ubuntu é um sistema operacional de código aberto, construído a partir do kernel Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo (LTS). Esta distribuição Linux é desenvolvida pela Canonical Ltd.
 Geralmente é executado em computadores pessoais e também é popular em servidores de rede, geralmente executando a versão Ubuntu Server, com recursos de classe empresarial.
 
 ## Red Hat
 
-![Red Hat - logo](https://upload.wikimedia.org/wikipedia/pt/e/ec/Red_Hat.jpg)
+<img src="./imgs/red-hat-logo.jpg" alt="red-hat-logo" width="250">  
+
 A Red Hat, Inc. é uma empresa dos Estados Unidos, que disponibiliza soluções baseadas no sistema operacional GNU/Linux, incluindo o Red Hat Enterprise Linux, além de soluções de software.
 
 ## Fedora
 
-![Fedora-logo](https://upload.wikimedia.org/wikipedia/commons/8/8f/Fedora_logo_%282021%29.svg)
+<img src="./imgs/fedora-logo.svg" alt="fedora-logo" width="250">  
+
 O Fedora Linux existe desde 2003, e seu desenvolvimento e suporte é oferecido pela comunidade do Projeto Fedora. Após ter descontinuado o sistema operacional Red Hat Linux, a Red Hat patrocina o desenvolvimento do sistema operacional Fedora, se envolvendo no desenvolvimento de vários programas disponíveis para o mesmo, que são eventualmente adicionados para o repositório do Red Hat Enterprise Linux, que é a distribuição Linux atual da empresa.
 
 ## CentOS
 
-![centOS - logo](https://upload.wikimedia.org/wikipedia/commons/b/bf/Centos-logo-light.svg)
+<img src="./imgs/centos-logo.svg" alt="centos-logo" width="250">  
+
 O CentOS, abreviação de Community ENTerprise Operating System, é uma distribuição Linux de classe corporativa derivada de códigos fonte gratuitamente distribuídos pela Red Hat Enterprise Linux e mantida pelo CentOS Project.
 
 ## Scientific Linux
 
-![scientific-logo](https://upload.wikimedia.org/wikipedia/commons/b/b1/Scientific_Linux_logo_and_wordmark.svg)
+<img src="./imgs/scientific-logo.svg" alt="scientific-logo" width="250">  
+  
 Scientific Linux é uma distribuição Linux padronizado pelo Fermi National Accelerator Laboratory ou Fermilab (Illinois/USA). Ele é um sistema operacional livre e de código aberto baseado no Red Hat Enterprise Linux (RHEL).O objetivo principal para o desenvolvimento do Scientific Linux foi disponibilizar uma distribuição de Linux para alguns laboratórios e universidades, que corresponde com as necessidades para experimentos físicos de alta energia e intensidade.
 
 ## Linux Mint
