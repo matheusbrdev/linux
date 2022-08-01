@@ -9,8 +9,6 @@ As responsabilidades do Kernel incluem gerenciar os recursos do sistema (a comun
 
 # Kernel Monolítico
 
----
-
 Em um kernel monolítico, todos os serviços do sistema operacional rodam junto com a linha de execução principal do próprio, portanto, se encontram na mesma área de memória. Essa abordagem permite um acesso vasto e poderoso ao hardware.
 
 > O desenvolvedor do UNIX (Ken Thompson), defende que "é mais fácil de implementar um kernel monolítico"
@@ -19,9 +17,7 @@ As principais desvantagens do kernel monolítico são as dependências entre os 
 
 # Microkernels
 
----
-
- Essa abordagem consistem em definir abstrações simples sobre o hardware, com um conjunto de chamadas de sistema para implementar serviços mínimos como:
+Essa abordagem consistem em definir abstrações simples sobre o hardware, com um conjunto de chamadas de sistema para implementar serviços mínimos como:
 
 - Gerenciamento de memória;
 - Multitarefas;
@@ -38,8 +34,6 @@ Nesta apostila vamos falar principalmente do Linux, mas, para isso foi preciso u
 Agora vamos começar a entender essa belezinha!
 
 # Linux
-
----
 
 O Linux é um kernel monolítico de código aberto(open source de licensa GPL) para sistemas operacionais do tipo UNIX, e foi desenvolvido para ambos os sistemas computacionais, seja computadores pessoais ou servidores, normalmente na forma de distribuições Linux.
 Ele pode ser encontrado em diversos dispositivos como: 
@@ -77,17 +71,16 @@ Historicamente, as licenças GPL são utilizadas por projetos de software livre 
 4. A liberdade de aperfeiçoar o programa e liberar os seus aperfeiçoamentos, de modo que toda a comunidade beneficie deles (liberdade nº 3). O acesso ao código-fonte é um pré-requisito para esta liberdade.
 
 # Algumas Distribuições com kernel linux
-
----
-
 ## Debian:
 
-![Debian-logo](https://upload.wikimedia.org/wikipedia/commons/4/4a/Debian-OpenLogo.svg)
+<img src="./imgs/debian-logo.svg" alt="debian-logo" width="110">  
+
 O Debian é um sistema operacional composto inteiramente de software livre e mantido oficialmente pelo Projeto Debian(comunidade). O projeto recebe, ainda, apoio de outros indivíduos e organizações de todo o mundo. O grupo distribui kernels Unix-like, como o Debian GNU/kFreeBSD e o Debian GNU/Hurd. O Debian é especialmente conhecido pelo seu sistema de gestão de pacotes, chamado APT, que permite atualizações relativamente fáceis a partir de versões anteriores, a instalação quase sem esforço de novos pacotes e a remoção limpa de pacotes antigos.
 
 ## Ubuntu
 
-![Ubuntu-logo](https://upload.wikimedia.org/wikipedia/commons/7/76/Ubuntu-logo-2022.svg)
+<img src="./imgs/ubuntu-logo.svg" alt="debian-logo" width="250">  
+
 Ubuntu é um sistema operacional de código aberto, construído a partir do kernel Linux, baseado no Debian e utiliza GNOME como ambiente de desktop de sua mais recente versão com suporte de longo prazo (LTS). Esta distribuição Linux é desenvolvida pela Canonical Ltd.
 Geralmente é executado em computadores pessoais e também é popular em servidores de rede, geralmente executando a versão Ubuntu Server, com recursos de classe empresarial.
 
