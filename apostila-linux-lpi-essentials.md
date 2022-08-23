@@ -314,3 +314,24 @@ Podemos vizualizar estes repositórios fazendo:
 ```shell
 $ cat /etc/apt/sources.list
 ```
+
+## dpkg
+O **dpkg** é um outro gerenciador de pacotes para distribuições linux Debian.
+Este gerenciador é uma ferramenta de baixo nível; ferramentas de alto nível, como o APT são usadas para obter os pacotes de instalação de localizações remotas ou lidar com as complexas relações entre eles(dependências).
+O padrão de pacotes para Debian, é um padrão que se chama deb, de Debian. Para Linux baseados em Debian, podemos baixar esse arquivo .deb e instalar.
+
+Depois de baixado o arquivo de instalação com extensão ``.deb`` podemos instalar
+fazendo: 
+```shell
+$ sudo dpkg -i nomeDoArquivoBaixado.deb
+```
+
+Para listar todos os pacotes que temos na máquina fazemos:
+```shell
+$ dpkg --list
+```
+
+Para remover um pacote com dpkg fazemos:
+```shell
+$ sudo dpkg -r nomeDoPacote
+```
