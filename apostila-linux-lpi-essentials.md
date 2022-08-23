@@ -258,11 +258,11 @@ De acordo com a LSB:
   
   - O software também conhecido como VMailer e IBM Secure Mailer, continua a ser ativamente desenvolvido pelo seu criador e outros contribuidores e é o agente de transferência de e-mails padrão de inúmeros sistemas operativos como o OS X, o Ubuntu, e o NetBSD.
 
-# Usando um sistema linux
+# Usando sistemas linux
 
-Vamos usar o Ubuntu como exemplo.
+## Ubuntu
 
-# Gerenciador de pacotes
+### Gerenciador de pacotes
 
 Distribuições Debian em geral nos disponibiliza um sistema de gerenciamento de pacotes chamado **apt**, com ele podemos pesquisar programas, instalar e etc.  
 Para "trazer" as versões atualizadas dos programas que estão disponíveis para instalação fazemos:
@@ -272,16 +272,16 @@ $ sudo apt-get update
 ```
 > Veja que executamos o comando como *root* (`sudo`), isto porque esta é uma tarefa de administração, por isso é necessário que seja feita como *root*, caso não, teremos uma mensagem de permissão negada
 
-## Upgrade
+### Upgrade
 A opção `upgrade` do `apt-get`, serve para atualizar todo o nosso sistema, atualizando as versões dos pacotes que já estão instalados.
 
-## Show
+### Show
 A opção `show` do comando `apt-cache`, mostra informações sobre um determinado pacote:
 
 ```shell
 $ apt-cache show mysql-server-5.6
 ```
-## Exemplo
+### Exemplo
 Para buscar um programa de servidor FTP podemos fazer:
 
 ```shell
@@ -300,14 +300,14 @@ Ele nos mostra o nome e uma curta descrição. Para instalar este programa fazem
 $ sudo apt-get install vsftpd
 ```
 
-## Removendo
+### Removendo
 
 Para que possamos remover programas, utilizamos o comando `apt-get remove` seguido do nome do programa. Como exemplo, vamos desinstalar o servidor que instalamos.
 
 ```shell
 $ sudo apt-get remove vsftpd
 ```
-## Repositórios  
+### Repositórios  
 
 Para buscar ou instalar os programas o Ubuntu usa listas, essas listas podemos chamá-las de repositórios.
 Podemos vizualizar estes repositórios fazendo:
@@ -315,7 +315,7 @@ Podemos vizualizar estes repositórios fazendo:
 $ cat /etc/apt/sources.list
 ```
 
-## dpkg
+### dpkg
 O **dpkg** é um outro gerenciador de pacotes para distribuições linux Debian.
 Este gerenciador é uma ferramenta de baixo nível; ferramentas de alto nível, como o APT são usadas para obter os pacotes de instalação de localizações remotas ou lidar com as complexas relações entre eles(dependências).
 O padrão de pacotes para Debian, é um padrão que se chama deb, de Debian. Para Linux baseados em Debian, podemos baixar esse arquivo .deb e instalar.
