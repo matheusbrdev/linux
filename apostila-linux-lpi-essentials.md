@@ -262,25 +262,27 @@ De acordo com a LSB:
 
 Vamos usar o Ubuntu como exemplo.
 
-# apt
+# Gerenciador de pacotes
 
-Vamos aprender como instalar um programa via Terminal de Linux. Como exemplo, iremos instalar um servidor FTP.
-
-O Ubuntu nos disponibiliza um sistema de gerenciamento de pacotes chamado **apt**. Para ver as versões atualizadas dos programas que estão disponíveis para instalação fazemos:
+Distribuições Debian em geral nos disponibiliza um sistema de gerenciamento de pacotes chamado **apt**, com ele podemos pesquisar programas, instalar e etc.  
+Para "trazer" as versões atualizadas dos programas que estão disponíveis para instalação fazemos:
 
 ```shell
 $ sudo apt-get update
 ```
+> Veja que executamos o comando como *root* (`sudo`), isto porque esta é uma tarefa de administração, por isso é necessário que seja feita como *root*, caso não, teremos uma mensagem de permissão negada
 
-> Obs: A opção `upgrade` do `apt-get`, serve para atualizar todo o nosso sistema, atualizando as versões dos pacotes que já estão instalados.
-> 
-> A opção `show` do comando `apt-cache`, mostra informações sobre um determinado pacote. Aproveite para fazer um teste:
-> 
-> ```shell
-> $ apt-cache show mysql-server-5.6
-> ```
+## Upgrade
+A opção `upgrade` do `apt-get`, serve para atualizar todo o nosso sistema, atualizando as versões dos pacotes que já estão instalados.
 
-Veja que executamos o comando como *root* (`sudo`), isto porque esta é uma tarefa de administração, por isso é necessário que seja feita como *root*, caso não, teremos uma mensagem de permissão negada. Neste passo, o Terminal irá buscar na internet o que existe de novidade nos programas para instalação. Para buscar um programa de servidor FTP podemos fazer:
+## Show
+A opção `show` do comando `apt-cache`, mostra informações sobre um determinado pacote:
+
+```shell
+$ apt-cache show mysql-server-5.6
+```
+## Exemplo
+Para buscar um programa de servidor FTP podemos fazer:
 
 ```shell
 $ apt-cache search ftp
@@ -292,7 +294,7 @@ Este comando busca na lista de pacotes disponíveis, qualquer programa que se en
 $ apt-cache search vsftp
 ```
 
-Achamos um bom servidor FTP, ele nos mostra o nome e uma curta descrição. Para instalar este programa fazemos:
+Ele nos mostra o nome e uma curta descrição. Para instalar este programa fazemos:
 
 ```shell
 $ sudo apt-get install vsftpd
@@ -305,6 +307,10 @@ Para que possamos remover programas, utilizamos o comando `apt-get remove` seg
 ```shell
 $ sudo apt-get remove vsftpd
 ```
+## Repositórios  
 
-> Para buscar ou instalar os programas o Ubuntu usa listas, essas listas podemos chamá-las de repositórios.
-> Podemos vizualizar estes repositórios fazendo:
+Para buscar ou instalar os programas o Ubuntu usa listas, essas listas podemos chamá-las de repositórios.
+Podemos vizualizar estes repositórios fazendo:
+```shell
+$ cat /etc/apt/sources.list
+```
